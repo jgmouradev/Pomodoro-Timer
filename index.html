@@ -22,18 +22,18 @@
     <div class="container">
         <div id="circularProgressBar" class="progress-bar">
             <div class="progress-bar-inner">
-                <h2 class="progress-value">25:00</h2>
+                <h2  id="timer"class="progress-value">25:00</h2>
             </div>
         </div>
     </div>
     <div class="botoes_pomodoro">
-        <button>Play</button>
-        <button>Pause</button>
-        <button>Reset</button>
+        <button id="start" onclick="startTimer()">Play</button>
+        <button id="stop" onclick="stopTimer()">Pause</button>
+        <button id="reset" onclick="resetTimer()">Reset</button>
     </div>
            
-        
-    </div>
+    <!--<footer>Pomodoro Timer</footer><-->    
+    
     
 </body>
     <script src="script.js"></script>
