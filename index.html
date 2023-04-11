@@ -10,15 +10,9 @@
 <body>
     <div class="menu">
         <h1>Pomodoro Timer</h1>
-        <div class="botoes">
-            <button id="curto">Descanso Curto</button>
-            <button id="longo">Descanso Longo</button>
-            <button>Spotify</button>
-        </div>
+        
     </div>
-
-
-    
+ 
     <div class="container">
         <div id="circularProgressBar" class="progress-bar">
             <div class="progress-bar-inner">
@@ -31,10 +25,17 @@
         <button id="stop" onclick="stopTimer()">Pause</button>
         <button id="reset" onclick="resetTimer()">Reset</button>
     </div>
+
+    <div class="botoes">
+        <button id="curto" onclick="fiveMinutes()"> 5 minutos</button>
+        <button id="longo" onclick="fifteenMinutes()">15 minutos</button>
+        
+    </div>
            
     <!--<footer>Pomodoro Timer</footer><-->    
     
     
 </body>
     <script src="script.js"></script>
+    
 </html>
