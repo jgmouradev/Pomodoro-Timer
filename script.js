@@ -2,7 +2,7 @@ const timerDisplay = document.querySelector('#timer');
     const startButton = document.querySelector('#start');
     const pauseButton = document.querySelector('#stop')
     const resetButton = document.querySelector('#reset');
-    const progressBar = document.querySelector('#circular');
+    const progressBar = document.querySelector('#progress-bar-fill');
     const descansoCurto = document.getElementById('curto');
     const descansoLongo = document.getElementById('longo');
 
@@ -50,6 +50,7 @@ const timerDisplay = document.querySelector('#timer');
     function fiveMinutes(){
       timerDisplay.innerText = '05:00';
       timeLeft = 300;
+      
     }
 
     function fifteenMinutes(){
